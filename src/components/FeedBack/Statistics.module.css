@@ -1,0 +1,14 @@
+.statistics {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.statItem {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.statValue {
+  font-weight: bold;
+  color: #6200ea;
+}
