@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import { FeedbackOptions, Statistics, Section, Notification } from './FeedBack';
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
         break;
       case 'bad':
         setBad(bad + 1);
+        break;
+      default:
+        console.warn(`Unknown option: ${option}`);
         break;
     }
   }
